@@ -1,6 +1,6 @@
 # airndlabs.github.io
 
-#<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <!-- saved from url=(0023)https://jonbarron.info/ -->
 <html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <meta name="viewport" content="“width=800”">
@@ -101,14 +101,15 @@
        We are a team of researchers and educators with a shared vision of fostering innovation and excellence in AI. Our collective expertise spans various domains of AI and its applications. Our mission is to democratize AI education and research, making it accessible to everyone, from beginners to advanced practitioners. We aim to bridge the gap between theoretical knowledge and practical application, enabling our students and partners to harness the power of AI to solve real-world problems. We organize online / offline projects, research and training programs for B.Tech/ M.Tech/Ph.D students and working professionals to accelerate research and skill development. 
 
 </p>
-
-<br>
+</tr>
+</table>
+<br/>
 
 <table width="100%" align="left" border="0" cellspacing="0" cellpadding="20">
   <tbody>
-        
+    <tr>
   <p>
-    <heading> <b> Team Members </b> </heading> <br>
+    <heading> <b> Team Members </b> </heading> <br/>
     <ul>
     <th><img width=70% src="divya.jpg"><br> <a href="Divya_CV.pdf"> Divya Srivastava</a></th>
     <th><img width=50% src="jaspreet.jpeg"><br><a href="https://sites.google.com/iitj.ac.in/jaspreetkaurhomepage/home">Jaspreet Kaur</a></th>
