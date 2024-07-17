@@ -110,8 +110,8 @@
   <p>
     <heading> <b> Team Members </b> </heading> <br>
     <ul>
-    <th><img width=70% src="/home/jaspreet/Desktop/divya.jpg"><br> <a href="/home/jaspreet/Desktop/Divya.pdf"> Divya Srivastava</a></th>
-    <th><img width=50% src="/home/jaspreet/Desktop/jaspreet.jpeg"><br><a href="https://sites.google.com/iitj.ac.in/jaspreetkaurhomepage/home">Jaspreet Kaur</a></th>
+    <th><img width=70% src="divya.jpg"><br> <a href="Divya_CV.pdf"> Divya Srivastava</a></th>
+    <th><img width=50% src="jaspreet.jpeg"><br><a href="https://sites.google.com/iitj.ac.in/jaspreetkaurhomepage/home">Jaspreet Kaur</a></th>
     
   </tr>
   
