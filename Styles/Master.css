@@ -1,4 +1,10 @@
-/* Initial large navbar height */
+body {
+    background-image: url('../Images/DL_NN.png');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center center; 
+}
+
 .navbar {
     transition: all 0.4s ease;
     padding: 1rem 2rem;
