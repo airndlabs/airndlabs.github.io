@@ -24,16 +24,16 @@
 	      		<ul class="navbar-nav me-auto mb-1 mb-lg-0">
 		        	<li class="nav-item"><a class="nav-link" aria-current="page" href="index.html">Home</a></li>
 		      		<li class="nav-item"><a class="nav-link active" href="team.html">Team</a></li>
-		      		<li class="nav-item"><a class="nav-link" href="courses.html">Courses</a></li>
+		      		<li class="nav-item"><a class="nav-link" target="_blank" href="courses.html">Courses</a></li>
 		      		<!--<li class="nav-item"><a class="nav-link" class="disabled">Fee Structure</a></li>-->
-		      		<li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+		      		<li class="nav-item"><a class="nav-link" target="_blank" href="services.html">Services</a></li>
 			      </ul>
 			      <div class="d-flex text-light gap-4 fs-4">
-					<a class="nav-link" href="#"><i class="fa-brands fa-x-twitter"></i></a>
-			        <a class="nav-link" href="#"><i class="fa-brands fa-facebook"></i></a>
-			        <a class="nav-link" href="#"><i class="fa-brands fa-instagram"></i></a>
-			        <a class="nav-link" href="#"><i class="fa-brands fa-linkedin"></i></a>
-			        <a class="nav-link" href="#"><i class="fa-brands fa-youtube"></i></a>
+					<a class="nav-link" target="_blank" href="#"><i class="fa-brands fa-x-twitter"></i></a>
+			        <a class="nav-link" target="_blank" href="#"><i class="fa-brands fa-facebook"></i></a>
+			        <a class="nav-link" target="_blank" href="#"><i class="fa-brands fa-instagram"></i></a>
+			        <a class="nav-link" target="_blank" href="#"><i class="fa-brands fa-linkedin"></i></a>
+			        <a class="nav-link" target="_blank" href="#"><i class="fa-brands fa-youtube"></i></a>
 		      	</div>
 		    </div>
 		  </div>
@@ -50,7 +50,7 @@
 					  	<img src="Images/ds.png" class="rounded-5 img-fluid" alt="Img">
 					  </div>
 					  <div class="card-footer text-muted">
-						<a href="http://home.iitj.ac.in/~srivastava.5/" class="btn btn-primary" target="_blank">View Profile</a>
+						<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#DSProfileModal">View Profile</button>
 					  </div>
 					</div>
 				</div>
@@ -62,11 +62,11 @@
 					  	<img src="Images/jk.png" class="rounded-5 img-fluid" alt="JK">
 					  </div>
 					  <div class="card-footer text-muted">
-						<a href="https://sites.google.com/iitj.ac.in/jaspreetkaurhomepage/home" class="btn btn-primary" target="_blank">View Profile</a>
+					  	<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#JKProfileModal">View Profile</button>
 					  </div>
 					</div>
 				</div>
-			
+
 				<div class="col">
 					<div class="card text-center">
 					  <h3 class="card-header bg-primary text-light">Krishna Verma</h3>
@@ -74,7 +74,7 @@
 					  	<img src="Images/kv.png" class="rounded-5 img-fluid" alt="KV">
 					  </div>
 					  <div class="card-footer text-muted">
-						<a href="#" class="btn btn-primary" target="_blank">View Profile</a>
+						<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#KVProfileModal">View Profile</button>
 					  </div>
 					</div>
 				</div>
@@ -86,7 +86,7 @@
 					  	<img src="Images/ms.png" class="rounded-5 img-fluid" alt="MS">
 					  </div>
 					  <div class="card-footer text-muted">
-						<a href="#" class="btn btn-primary" target="_blank">View Profile</a>
+						<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#MSProfileModal">View Profile</button>
 					  </div>
 					</div>
 				</div>
@@ -101,4 +101,83 @@
         </div>
     </footer>
 </body>
+
+<div class="modal fade" id="DSProfileModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="DSProfileModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        	<h1 class="modal-title fs-5" id="DSProfileModalLabel">Profile - Divya Srivastava</h1>
+        	<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+	  	</div>
+	    <div class="modal-body">
+	        <p>Divya Srivastava is a passionate researcher in the fields of Machine Learning, Deep Learning, Computer Vision, Document Image Analysis, and Biometrics. She has currently submitted her PhD thesis at the Department of Computer Science and Engineering, Indian Institute of Technology (IIT) Jodhpur. She has a strong technical background, with proficiency in Python, C, and machine learning libraries such as TensorFlow and Keras.</p>
+	    </div>
+	    <div class="modal-footer d-flex justify-content-between">
+	    	<a class="nav-link" target="_blank" href="https://www.linkedin.com/in/divya-srivastava-248363177/"><i class="fa-brands fa-linkedin fa-lg"></i></a>
+	    	<a class="nav-link" target="_blank" href="#"><i class="fa-brands fa-x-twitter fa-lg"></i></a>
+	        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+	    </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="JKProfileModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="JKProfileModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content">
+      	<div class="modal-header">
+        	<h1 class="modal-title fs-5" id="JKProfileModalLabel">Profile - Jaspreet Kaur</h1>
+        	<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+	  	</div>
+	    <div class="modal-body">
+	        <p>Jaspreet kaur is a working professional in the field of cyber security. She has knowledge in Network security, Blockchain security, IoT security, ML security and App security and has several years of experience as a researcher, faculty mentor, content writer. She is a M.Tech from Delhi Technical University and. She has keen interest in cyber AI about, how ML can help to secure our data? Does ML also need security ? How ML can be used as offensive and defensive purpose ?
+	        </p>
+	    </div>
+	    <div class="modal-footer d-flex justify-content-between">
+	    	<a class="nav-link" target="_blank" href="https://www.linkedin.com/in/jaspreet-kaur-07726a123/?originalSubdomain=in"><i class="fa-brands fa-linkedin fa-lg"></i></a>
+	    	<a class="nav-link" target="_blank" href="#"><i class="fa-brands fa-facebook fa-lg"></i></a>
+	    	<a class="nav-link" target="_blank" href="#"><i class="fa-brands fa-instagram fa-lg"></i></a>
+	    	<a class="nav-link" target="_blank" href="#"><i class="fa-brands fa-x-twitter fa-lg"></i></a>
+	        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+	    </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="KVProfileModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="KVProfileModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        	<h1 class="modal-title fs-5" id="KVProfileModalLabel">Profile - Krishna Verma</h1>
+        	<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+	  	</div>
+	    <div class="modal-body">
+	        <p>Krishna Verma holds B.Tech in Information Technology from Engineering College Ajmer. He has Interest in Artificial Intelligence & Machine Learning. He is currently Associated with National Forensic Science University Gandhinagar, Gujarat.</p>
+	    </div>
+	    <div class="modal-footer d-flex justify-content-between">
+    		<a class="nav-link" target="_blank" href="https://in.linkedin.com/in/krishna-verma-8013"><i class="fa-brands fa-linkedin fa-lg"></i></a>
+	        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+	    </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="MSProfileModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="MSProfileModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        	<h1 class="modal-title fs-5" id="MSProfileModalLabel">Profile - Mohit Sharma</h1>
+        	<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+	  	</div>
+	    <div class="modal-body">
+	        <p>Mohit Sharma holds M.Tech in Advanced Computing from Maulana Azad National Institute of Technology Bhopal, during which he published two scholarly articles. Currently, he is serving the Government of Rajasthan for the last 10 years in field of IT.</p>
+	    </div>
+	    <div class="modal-footer d-flex justify-content-between">
+	    	<a class="nav-link" target="_blank" href="https://x.com/sharmamohit25"><i class="fa-brands fa-x-twitter fa-lg"></i></a>
+	    	<a class="nav-link" target="_blank" href="https://www.facebook.com/mohit2507"><i class="fa-brands fa-facebook fa-lg"></i></a>
+	        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+	    </div>
+    </div>
+  </div>
+</div>
+
 </html>
